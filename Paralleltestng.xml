@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="methods" thread-count="2">
+
+    <test name="TestParallel1">
+        <classes>
+            <class name="Generic_method.ParallelTest"/>
+           
+           
+             
+        </classes>
+    </test>
+    
+    
+
+</suite>

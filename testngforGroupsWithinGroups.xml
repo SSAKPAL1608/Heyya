@@ -1,0 +1,18 @@
+<suite name="Suite" parallel="classes" thread-count="2">
+    <test name="Test">
+        <groups>
+            <define name="SmokeTests">
+                <include name="LoginTest" />
+                <include name="HomePageTest" />
+            </define>
+            <run>
+                <include name="SmokeTests" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="TestNg.LoginTests" />
+            <class name="TestNg.HomePageTests" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
